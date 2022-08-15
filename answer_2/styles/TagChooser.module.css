@@ -1,0 +1,51 @@
+.input_wrap {
+    border-bottom: 2px solid rgb(244, 245, 246);
+    padding: 4% 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.input_icon {
+    color: rgb(190, 190, 190);
+    font-size: 1.5em;
+    /* stroke-width: 0.125em; */
+}
+
+.input_text {
+    flex: 1 1 80%;
+    border: none;
+    outline: none;
+    font-size: 1.5em;
+    margin-left: 4%;
+    width: 80%;
+}
+
+.input_text::placeholder {
+    color: rgb(190, 190, 190);
+}
+
+.tag_add_btn {
+    border: none;
+    background-color: black;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    
+    font-size: 12px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.tag_add_btn svg path {
+    stroke: white;
+    stroke-width: 0.25em;
+}
+
+.tags_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 4%;
+}

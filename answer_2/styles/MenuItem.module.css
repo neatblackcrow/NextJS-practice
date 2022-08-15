@@ -1,0 +1,13 @@
+.menu_item {
+    display: block;
+    margin-top: 6%;
+}
+
+.menu_icon {
+    color: rgb(197, 197, 197);
+    margin-right: 0.5em;
+    font-size: 1.1em;
+    /* line-height: 0.1em; doesn't work */
+    position: relative;
+    top: 0.15em;
+}

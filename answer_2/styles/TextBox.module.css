@@ -1,0 +1,36 @@
+.textbox_wrap {
+    border-bottom: 2px solid rgb(244, 245, 246);
+    padding: 4% 0;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.input_icon {
+    color: rgb(190, 190, 190);
+    font-size: 1.5em;
+    /* stroke-width: 0.125em; */
+
+    position: relative;
+    top: 0.5em;
+}
+
+.input_wrap {
+    flex: 1;
+    margin-left: 4%;
+}
+
+.input_label {
+    color: rgb(190, 190, 190);
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+.input_text {
+    border: none;
+    outline: none;
+    display: block;
+    font-size: 1.5em;
+    width: 100%;
+}

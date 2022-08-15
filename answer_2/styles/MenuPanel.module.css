@@ -1,0 +1,47 @@
+.menu_panel {
+    position: fixed;
+    top: 0;
+    z-index: 98;
+    height: 100vh;
+    width: 40vw;
+    background-color: white;
+    border-left: 2px solid rgb(241, 241, 241);
+    padding: 2% 4%;
+
+    transition: right 0.5s ease-in-out;
+}
+
+.menu_panel.hidden {
+    right: -40vw;
+}
+
+.menu_panel.shown {
+    right: 25vw;
+}
+
+.menu_panel.hidden_undermenu {
+    right: -15vw;
+}
+
+@media screen and (max-width: 1080px) {
+    .menu_panel {
+        width: 100vw;
+        z-index: 99;
+    }
+
+    .menu_panel.hidden {
+        right: -100vw;
+    }
+    
+    .menu_panel.shown {
+        right: 0;
+    }
+    
+    .menu_panel.hidden_undermenu {
+        right: -100vw;
+    }
+}
+
+.menu_panel_close {
+    color: rgb(165, 145, 145);
+}

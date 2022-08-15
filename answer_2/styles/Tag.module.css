@@ -1,0 +1,57 @@
+.tag {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    color: white;
+    border: none;
+    border-radius: 2em;
+    font-size: 0.8em;
+    padding: 2% 2% 2% 4%;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+.tag_remove_btn {
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+
+    margin-left: 25px;
+}
+
+.tag_remove_btn svg path {
+    stroke: white;
+    fill: white;
+    stroke-width: 2px;
+}
+
+.tag.style_0 {
+    background-color: rgb(242, 175, 164);
+}
+
+.tag.style_0 .tag_remove_btn {
+    background-color: rgb(129, 101, 101);
+}
+
+.tag.style_1 {
+    background-color: rgb(130, 102, 102);
+}
+
+.tag.style_1 .tag_remove_btn {
+    background-color: rgb(242, 177, 166);
+}
+
+.tag.style_2 {
+    background-color: rgb(170, 141, 124);
+}
+
+.tag.style_2 .tag_remove_btn {
+    background-color: rgb(126, 99, 99);
+}

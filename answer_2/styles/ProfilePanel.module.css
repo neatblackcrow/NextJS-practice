@@ -1,0 +1,49 @@
+#profile_title {
+    font-size: 2em;
+}
+
+#profile_footer {
+    position: absolute;
+    bottom: 10%;
+    width: 80%;
+    height: 6%;
+}
+
+#profile_save_btn {
+    float: right;
+    width: 65%;
+    height: 100%
+}
+
+#profile_cancel_btn {
+    float: left;
+    width: 30%;
+    height: 100%
+}
+
+@media screen and (max-width: 1080px) {
+    #profile_footer {
+        position: static;
+        width: 100%;
+        height: 3em;
+    }
+
+    #profile_save_btn {
+        width: 48%;
+        height: 100%;
+
+        margin-left: 2%;
+    }
+    
+    #profile_cancel_btn {
+        width: 48%;
+        height: 100%
+    }
+}
+
+#profile_color_chooser_wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}

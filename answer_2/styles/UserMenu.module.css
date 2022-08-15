@@ -1,0 +1,104 @@
+#menu_button {
+    display: block;
+    float: right;
+    font-size: 30px;
+}
+
+#menu_panel {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    height: 100vh;
+    width: 25vw;
+    background-color: white;
+    border-left: 2px solid rgb(241, 241, 241);
+    padding: 2%;
+
+    transition: right 0.5s ease-in-out;
+}
+
+#menu_panel.hidden {
+    right: -25vw;
+}
+
+#menu_panel.shown {
+    right: 0;
+}
+
+@media screen and (max-width: 1080px) {
+    #menu_panel {
+        width: 100vw;
+    }
+
+    #menu_panel.hidden {
+        right: -100vw;
+    }
+    
+    #menu_panel.shown {
+        right: 0;
+    }
+}
+
+#menu_close {
+    float: right;
+    color: rgb(165, 145, 145);
+}
+
+#menu_header {
+    clear: both;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#menu_profile_image {
+    border-radius: 50%;
+}
+
+#menu_profile_detail {
+    width: 100%;
+    text-align: center;
+}
+
+#menu_profile_name {
+    margin: 0;
+    color: rgb(129, 110, 109);
+    font-size: 1.5em;
+}
+
+#menu_profile_desc {
+    margin: 0;
+    color: rgb(179, 183, 186);
+    font-size: 0.9em;
+}
+
+#menu_title {
+    color: rgb(212, 214, 218);
+    margin-top: 8vh;
+    margin-bottom: 0;
+    font-size: 0.8em;
+}
+
+#menu_footer {
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+    right: 8%;
+    color: rgb(133, 113, 113);
+    border-top: 2px solid rgb(241, 241, 241);
+    padding: 5% 0;
+}
+
+@media screen and (max-width: 1080px) {
+    #menu_footer {
+        position: static;
+        border: none;
+    }
+}
+
+#menu_logout_icon {
+    margin-right: 0.5em;
+    position: relative;
+    top: 0.10em;
+}
